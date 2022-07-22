@@ -1,5 +1,5 @@
 # Rocket League Wiki Website
-This Rocket League webiste is divided into four main sections and my main goal was to explain a well known video game, Rocket League, to someone that doesn't know anything about the game. I used HTML, CSS, and JavaScript to make the website.
+This Rocket League webiste is divided into four main navigation areas and my main goal was to explain a well known video game, Rocket League, to someone that doesn't know anything about the game. I used HTML, CSS, and JavaScript to make the website.
 
 ## Home
 ![Home Page Screenshot](/RL/Screenshots/home-page-screenshot.jpg "Home Page Screenshot")
