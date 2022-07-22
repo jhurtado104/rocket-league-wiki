@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="RL/RocketLeague-Icon.png" type="image/png" sizes="800x800">
+        <title>Rocket League | Vehicles</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="background" id="vehicles">
+        <header>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ranks.html">Ranks</a></li>
+                    <li><a href="vehicles.html">Vehicles</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="text-background">
+            <h1 class="title-header-text">Vehicles</h1>
+            <p class="text">
+                At the launch of Rocket League there were a total of eleven cars to choose from.
+                This does not include console exclusives. Below you can click and view each car
+                in there respective team (orange and blue team) and can see how they differ from
+                one another while in game. Among the early Rocket League Community the hitboxes
+                of each car were dicussed and many speculated that some cars were similar to each
+                other in the way they feel on the pitch and their interactions with other vehicles. As
+                of today we now know that there are six types of hitboxes or body types in the game
+                which include Octane, Dominus, Plank, Breakout, Hybrid, and Merc. Each body type has
+                its pros and cons but at the end of the day it all depends on the player and what they
+                decided to master.
+            </p>
+
+            <div id="team-btns"></div>
+            <div class="side-by-side">
+                <div class="cars" id="ingame-OT-car"></div>
+                <div class="cars" id="ingame-BT-car"></div>
+            </div>
+
+            <ul class="btn-row">
+                <li class="row">
+                    <input type="button" class="btn-vehicles" id="backfire-car" onclick="showBackfire()" value="Click to View">
+                    <p class="vehicle-name">Backfire</p>
+                </li>
+                <li class="row">
+                    <input type="button" class="btn-vehicles" id="breakout-car" onclick="showBreakout()" value="Click to View">
+                    <p class="vehicle-name">Breakout</p>
+                </li>
+                <li class="row">
+                    <input type="button" class="btn-vehicles" id="dominus-car" onclick="showDominus()" value="Click to View">
+                    <p class="vehicle-name">Dominus</p>
+                </li>
+                <li class="row">
+                    <input type="button" class="btn-vehicles" id="gizmo-car" onclick="showGizmo()" value="Click to View">
+                    <p class="vehicle-name">Gizmo</p>
+                </li>
+                <li class="row">
+                    <input type="button" class="btn-vehicles" id="hotshot-car" onclick="showHotshot()" value="Click to View">
+                    <p class="vehicle-name">Hotshot</p>
+                </li>
+                <li class="row">
+                    <input type="button" class="btn-vehicles" id="merc-car" onclick="showMerc()" value="Click to View">
+                    <p class="vehicle-name">Merc</p>
+                </li>
+                <li class="row">
+                    <input type="button" class="btn-vehicles" id="octane-car" onclick="showOctane()" value="Click to View">
+                    <p class="vehicle-name">Octane</p>
+                </li>
+                <li class="row">
+                    <input type="button" class="btn-vehicles" id="paladin-car" onclick="showPaladin()" value="Click to View">
+                    <p class="vehicle-name">Paladin</p>
+                </li>
+                <li class="row">
+                    <input type="button" class="btn-vehicles" id="roadhog-car" onclick="showRoadHog()" value="Click to View">
+                    <p class="vehicle-name">Road Hog</p>
+                </li>
+                <li class="row">
+                    <input type="button" class="btn-vehicles" id="venom-car" onclick="showVenom()" value="Click to View">
+                    <p class="vehicle-name">Venom</p>
+                </li>
+                <li class="row">
+                    <input type="button" class="btn-vehicles" id="xdevil-car" onclick="showXDevil()" value="Click to View">
+                    <p class="vehicle-name">X-Devil</p>
+                </li>
+            </ul>
+
+            <script src="vehicles.js"></script>
+        </main>
+    </body>
+</html>

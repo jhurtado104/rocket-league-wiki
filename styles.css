@@ -1,0 +1,423 @@
+/* Incase I want to change the font 
+font-family: "Bourgeois W00 Medium", "Arial Regular", Arial, sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, 
+    Oxygen-Sans, Ubuntu, Cantarell, Helvetica, Arial, sans-serif, Apple 
+    Color Emoji, Segoe UI Emoji, Segoe UI Symbol
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.background {    
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#home {
+    background-image: url("RL/Backgrounds/Home-Background.jpg");
+}
+
+#about {
+    background-image: url("RL/Backgrounds/About-Background.jpg");
+}
+
+#ranks {
+    background-image: url("RL/Backgrounds/Ranks-Background.jpg");
+}
+
+#vehicles {
+    background-image: url("RL/Backgrounds/OctaneFanArt.jpg");
+}
+
+.nav ul {
+    padding-left: 20px;
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    background: linear-gradient(#2A72a7, #0F334D);
+}
+
+.nav li {
+    transition: background 0.3s, color 0.3s, border-radius 0s;
+    transform: skew(-45deg);   
+}
+
+.nav li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    transform: skew(45deg);
+}
+
+.nav li:hover {
+    background: white;    
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav li a:hover{
+    color: #2c79b1;
+}
+
+#main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 225px 0 0;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+#last-video {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.text-background {
+    padding-top: .5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: .5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+.title-header-text {
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-bottom: 2px solid black;
+    margin-bottom: 0px;
+}
+
+.text {
+    color: #000000;
+    text-indent: 25px;
+}
+
+.text-under-image {
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 2%;
+}
+
+::selection {
+    background: black;
+    color: white;
+}
+
+.ingame-rl {
+    width: 100%;
+    height: auto;
+}
+
+.rl-maps {
+    width: 50%;
+    height: auto;
+}
+
+.inline-pics {
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+}
+
+.all-ranks {
+    padding-top: 25px;
+}
+
+.rocket-league-tracker {
+    text-decoration: none;
+}
+
+.table-heading-left {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.table-heading-center {
+    text-align: center;
+}
+
+.rank-tier {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.rank-tier-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rank-name {
+    display: inline-block;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.rank-table {
+    width: 100%;
+    color: white;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+.heading-background {
+    background: linear-gradient(#2A72a7, #0F334D);
+    color: rgb(209, 209, 209);
+}
+
+.supersonic-background {
+    background-color: #7418da;
+}
+
+.grandchamp-background {
+    background-color: #920b1b;
+}
+
+.champ-background {
+    background-color: #590a7a;
+}
+
+.diamond-background {
+    background-color: #082382;
+}
+
+.plat-background {
+    background-color: #0a757a;
+}
+
+.gold-background {
+    background-color: #918a16;
+}
+
+.silver-background {
+    background-color: #6e6e6e;
+}
+
+.bronze-background {
+    background-color: #784b09;
+}
+
+.answer-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.rank-banner {
+    margin-right: 10px;
+    height: 60px;
+}
+
+.answer-text {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+.answer-box {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.rank-range {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.rank-range-banner {
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+}
+
+.input-box {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 26%;
+}
+
+.btn {
+    border: 2px solid #555555;
+    padding: 8px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #555555;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.btn-row {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.row {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.btn-vehicles {
+    border: 1px solid #555555;
+    padding: 70px 40px 70px 40px;
+    background: linear-gradient(#2A72a7, #0F334D);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.5));
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 159px;
+}
+
+.vehicle-name {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-vehicles:hover {
+    cursor: pointer;
+    background: linear-gradient(#0F334D, #2A72a7);
+}
+
+.car-teams {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 7px 10px 7px 10px;
+    margin-bottom: 10px;
+}
+
+#team-btns {
+    text-align: center;
+    margin-right: 15px;
+}
+
+.orange {
+    background-color: #ff7900;
+    margin-right: 6px;
+    border: 1px solid #ff7900;
+}
+
+.orange:hover {
+    color: #ff7900;
+    background-color: white;
+    transition: background 0.3s, color 0.3s;
+}
+
+.orange:active {
+    background-color: #ff7900;
+    color: white;
+    transition: background 0.2s, color 0.2s;
+}
+
+.OT-car {
+    width: 100%;
+}
+
+.blue {
+    background-color: #305dff;
+    border: 1px solid #305dff;
+}
+
+.blue:hover {
+    color: #305dff;
+    background-color: white;
+    transition: background 0.3s, color 0.3s;
+}
+
+.blue:active {
+    background-color: #305dff;
+    color: white;
+    transition: background 0.2s, color 0.2s;
+}
+
+.BT-car {
+    width: 100%;
+}
+
+.cars {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.side-by-side::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding-bottom: 20px;
+}
+
+.borderWhite:hover {
+    border: 1px solid white;
+    transition: border 0.2s;
+}
+
+.borderWhite:active {
+    border: 1px solid black;
+}
